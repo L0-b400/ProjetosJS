@@ -19,6 +19,9 @@ console.log(posx, posy)
 var mosca = document.createElement('img')
 mosca.src = 'imagens/mosca.png' 
 mosca.className = 'mosca'
+mosca.style.left = posx + 'px'
+mosca.style.top = posy + 'px'
+mosca.style.position = 'absolute'
 document.body.appendChild(mosca)
 
 }
